@@ -1,6 +1,6 @@
 # PbTiO<sub>3</sub> MLIP model 
 
-Here you'll find a MLIP model for PbTiO<sub>3</sub> trained with MACE
+Here you'll find a MLIP model for PbTiO<sub>3</sub> trained with MACE. The model was trained with our dataset of structures and finetuned with MACE foundational model MP0. 
 
 ## Content
 
