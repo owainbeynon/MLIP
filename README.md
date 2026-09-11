@@ -1,6 +1,8 @@
 # PbTiO<sub>3</sub> MLIP model 
 
-Here you'll find a MLIP model for PbTiO<sub>3</sub> trained with MACE. The model was trained with our dataset of structures and finetuned with MACE foundational model MP0. 
+Here you'll find a MLIP model for PbTiO<sub>3</sub> trained with MACE. The model was trained with our dataset of structures and finetuned with MACE foundational model MP0.
+Our database contains structures, energy, forces, stresses as calculated with our functional C09x-PBEc (
+https://doi.org/10.48550/arXiv.2608.04806). 
 
 ## Content
 
@@ -26,7 +28,7 @@ atoms.calc = mace
 ### Lattice Parameters 
 
 Below is how the model performs at geometry optimisation for the tetragonal and cubic phase against reference DFT data 
-from Quantum Espresso: 
+from Quantum Espresso calculated with C09x-PBEc. 
 
 | Phase | Lattice Parameter / Å | DFT  | MLIP Model |   Exp.   |
 | :--- |:----------------------|:----:|:----------:|:--------:|
