@@ -26,7 +26,8 @@ atoms.calc = mace
 ### Lattice Parameters 
 
 Below is how the model performs at geometry optimisation for the tetragonal and cubic phase against reference DFT data 
-from Quantum Espresso: 
+from Quantum Espresso. The model was trained using our DFT functional C09x-PBEc (
+https://doi.org/10.48550/arXiv.2608.04806).  
 
 | Phase | Lattice Parameter / Å | DFT  | MLIP Model |   Exp.   |
 | :--- |:----------------------|:----:|:----------:|:--------:|
